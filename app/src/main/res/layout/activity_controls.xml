@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controls"
+    android:background="@color/white">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/back_p"
+            android:layout_centerVertical="true"
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:src="@drawable/bck"
+            android:padding="5dp"
+            android:background="@drawable/back2">
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/calistoga"
+            android:text="@string/controls"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/plant">
+        </ImageView>
+
+    </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Watering"
+                    android:fontFamily="@font/calistoga"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:layout_margin="20dp">
+
+                    <Button
+                        android:id="@+id/onButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/on"
+                        android:layout_alignParentStart="true"
+                        android:onClick="turnOnRelay"
+                        android:layout_marginEnd="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="@color/blue"/>
+
+                    <Button
+                        android:id="@+id/offButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/off"
+                        android:layout_alignParentEnd="true"
+                        android:onClick="turnOffRelay"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="@color/blue"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Exhaust Fan"
+                    android:fontFamily="@font/calistoga"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:layout_margin="20dp">
+
+                    <Button
+                        android:id="@+id/onButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/on"
+                        android:layout_alignParentStart="true"
+                        android:onClick="turnOnRelay"
+                        android:layout_marginEnd="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="#B71C1C"/>
+
+                    <Button
+                        android:id="@+id/offButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/off"
+                        android:layout_alignParentEnd="true"
+                        android:onClick="turnOffRelay"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="#B71C1C"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Lights"
+                    android:fontFamily="@font/calistoga"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:layout_margin="20dp">
+
+                    <Button
+                        android:id="@+id/onButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/on"
+                        android:layout_alignParentStart="true"
+                        android:onClick="turnOnRelay"
+                        android:layout_marginEnd="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="#92A8A5"/>
+
+                    <Button
+                        android:id="@+id/offButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/off"
+                        android:layout_alignParentEnd="true"
+                        android:onClick="turnOffRelay"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:backgroundTint="#92A8A5"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>

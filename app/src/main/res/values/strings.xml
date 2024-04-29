@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Eco Green</string>
+    <string name="image_view">image view</string>
+    <string name="eco_green">ECO GREEN</string>
+    <string name="greenhouse_monitoring_and_controlling_app">Greenhouse Monitoring and Controlling App</string>
+    <string name="eco_green2">Eco Green</string>
+    <string name="your_greenhouse_s_guardian">Your Greenhouse\'s Guardian</string>
+    <string name="controls">CONTROLS</string>
+    <string name="home">Home</string>
+    <string name="charts">Charts</string>
+    <string name="charts2">CHARTS</string>
+    <string name="temperature_c">Temperature: --°C</string>
+    <string name="humidity">Humidity: --%</string>
+    <string name="soil_moisture">Soil Moisture: --%</string>
+    <string name="light_intensity">Light Intensity: --%</string>
+    <string name="time_amp_date_records"><![CDATA[Time & Date Records]]></string>
+    <string name="time">Time:</string>
+    <string name="date">Date</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+</resources>

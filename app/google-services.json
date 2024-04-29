@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "782609859104",
+    "firebase_url": "https://ecogreenmonitorysystem-default-rtdb.firebaseio.com",
+    "project_id": "ecogreenmonitorysystem",
+    "storage_bucket": "ecogreenmonitorysystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782609859104:android:ad1ea9feb18ff22bb4b245",
+        "android_client_info": {
+          "package_name": "com.ecogreenmonitoringsystem.ecogreen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVwuJfj7xbyv4XXCsf4sL7kCnwMcXQLwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
